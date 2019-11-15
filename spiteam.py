@@ -8,7 +8,6 @@ from LIST.us import *
 from LIST.fr import *
 from LIST.kr import *
 from LIST.de import *
-from LIST.tr import *
 from LIST.my import *
 import requests,re,os
 
@@ -44,7 +43,7 @@ def main():
     print ("  {}[ 5 ] {}France").format(r,w)
     print ("  {}[ 6 ] {}Korea").format(r,w)
     print ("  {}[ 7 ] {}German").format(r,w)
-    print ("  {}[ 8 ] {}Turkey").format(r,w)
+    print ("  {}[ 8 ] {}Malaysia").format(r,w)
     print ("  {}[ 9 ] {}Exit").format(r,w)
     print ""
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
@@ -68,10 +67,8 @@ def filtering(pilih):
     elif pilih == 7:
         german()
     elif pilih == 8:
-        turkey()
-         elif pilih == 9:
         malaysia()
-    elif pilih == 10:
+    elif pilih == 9:
         print (r+"Exiting ..."+w)
         os.sys.exit()
     else:
