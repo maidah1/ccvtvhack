@@ -8,7 +8,7 @@ from LIST.us import *
 from LIST.fr import *
 from LIST.kr import *
 from LIST.de import *
-from LIST.my import *
+from LIST.tr import *
 import requests,re,os
 
 b="\033[0;34m"
@@ -33,8 +33,8 @@ def main():
     print("{}  |P   \\\__//    | ").format(w)
     print("  |CS   '--'     | ")
     print("{}  '--------------'----------{}------------------.  ").format(r,w)
-    print("{}  | {}Nick  : {}./Sachii'Exploit {}     | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
-    print("{}  | {}Youtube : {}Bhi Official {}| {}Last Grows Hacking cctv {}|").format(r,w,w,w,lgray,w)
+    print("{}  | {}Author  : {}HVmbl3 {}     | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
+    print("{}  | {}Youtube : {}Shodiq 2701 {}| {}+62-813-6487-3762 {}|").format(r,w,w,w,lgray,w)
     print("{}  '------------------------------------{}-------'  ").format(r,w)
     print ("  {}[ 1 ] {}Italy").format(r,w)
     print ("  {}[ 2 ] {}Indonesia").format(r,w)
@@ -43,7 +43,7 @@ def main():
     print ("  {}[ 5 ] {}France").format(r,w)
     print ("  {}[ 6 ] {}Korea").format(r,w)
     print ("  {}[ 7 ] {}German").format(r,w)
-    print ("  {}[ 8 ] {}Malaysia").format(r,w)
+    print ("  {}[ 8 ] {}Turkey").format(r,w)
     print ("  {}[ 9 ] {}Exit").format(r,w)
     print ""
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
@@ -67,7 +67,7 @@ def filtering(pilih):
     elif pilih == 7:
         german()
     elif pilih == 8:
-        malaysia()
+        turkey()
     elif pilih == 9:
         print (r+"Exiting ..."+w)
         os.sys.exit()
